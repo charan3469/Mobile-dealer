@@ -8,6 +8,7 @@ package mobile.dealer;
 import java.awt.HeadlessException;
 import java.sql.*;
 import javax.swing.JOptionPane;
+import static mobile.dealer.L.con;
 
 /**
  *
@@ -163,7 +164,7 @@ public class R extends javax.swing.JFrame {
 /* 168 */       String s3 = new String(this.jPasswordField2.getPassword());
 /*     */ 
 /* 170 */       Class.forName("com.mysql.jdbc.Driver");
-/* 171 */       Connection con = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12190719", "sql12190719", "pBUZzaXEDQ");
+/* 171 */       Connection con = DriverManager.getConnection("jdbc:mysql://18.220.36.240:3306/charan", "charan3469", "charan");
 /* 172 */       Statement stmt = con.createStatement();
 /* 173 */       if (user(s1))
 /*     */       {

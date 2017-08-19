@@ -23,7 +23,7 @@ public class L extends javax.swing.JFrame {
              try
               {
                 Class.forName("com.mysql.jdbc.Driver");
-                con = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12190719", "sql12190719", "pBUZzaXEDQ");
+                con = DriverManager.getConnection("jdbc:mysql://18.220.36.240:3306/charan", "charan3469", "charan");
                 stmt = con.createStatement();
                 } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e);
